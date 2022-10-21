@@ -1,0 +1,28 @@
+
+        TIPOS DE IMAGENES!
+    LOSSY vs LOSSLESS
+    ConPerdida/SinPerdida
+    
+    LOSSLESS
+        El formato perce no hace perder calidad de la imagen..son pesadas
+        Alto tiempo de carga en navegador
+    LOSSY
+         Pierde calidad..es liviana..bajo tiempo de carga navegador
+       
+        FORMATOS
+            GIF-LOSSLESS (Graphics Interchange Format)
+                 Son imagenes de 256 colores animadas
+             PNG8-LOSSLESS(Portable Network Graphics)
+                 Formato de 256 colores..iconos o logos..usa transparencia
+            PNG24-LOSSLESS
+                  Colores ilimitados..es mas pesado q png8 o GIF
+            JPG/JPEG-LOSSY (Photographic Experts Group)
+                 Es formato para fotografias..colores ilimitados..imagenes grandes..se pueden comprimir
+            SVG-VECTOR-LOSSLESS(ScalableVectorGraphics)
+                 Formato ligero para iconos/logos para escalar..apta para cambiar resoluciones sin perder resolucion
+
+        OPTIMIZACION DE IMAGENES
+    Tamaño máximo recomendado para una imágen:70kb-100kb
+Herramientas:
+Tiny PNG: Comprime el tamaño de una imagen, para hacerla más ligera.
+Verefix: Elimina los metadatos de una imagen, para reducir su tamaño.
