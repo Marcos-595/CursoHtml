@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase_Video</title>
+</head>
+<body>
+    <main>
+        <section>
+            <video  controls preload="auto">
+                <source src="urlDelVideo#t=10,60"/>
+                <source src="urlDelVideoMP3#t=10,60"/>
+                <source src="urlDelVideoMP4#t=10,60"/>
+            </video>
+           
+            <iframe src="https://www.youtube.com/embed/tPDJ8xl5hn0> </iframe>
+            
+        </section>
+    </main>
+</body>
+</html>
+
+<!-- controls= genera los controles del video
+<!-- preload= precarga el video al cargar la pagina -->
+<!-- "URLDelVideo#t=tiempoInicio,tiempoFinal" = reproduce solo el tiempo indicado-->
+<!-- muted: Inicia el video con el audio desactivado
+     autoplay: Permite que el video se auto reproduzca cuando este este listo
+     loop: El video se reproduce indefinidamente 
+     poster: Permite agregar una imagen como vista previa (antes de reproducir el video)
+     source: Permite añadir el mismo video en diferentes 
+             formatos siempre respeta el primero q entienda el navegador
